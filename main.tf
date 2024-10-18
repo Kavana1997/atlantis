@@ -8,7 +8,7 @@ terraform {
   }
 }
 
-resource "aws_instance" "instance-tag1"{
+resource "aws_instance" "instance-tg1"{
   ami = "ami-08718895af4dfa033"
   instance_type = "t2.micro"
   key_name = "new_jenkins"
