@@ -13,6 +13,6 @@ resource "aws_instance" "instance-tg1"{
   instance_type = "t2.micro"
   key_name = "new_jenkins"
   tags = {
-    Name = "atlantis-terraform1"
+    Name = "atlantis-terraform3"
   }
 } 
